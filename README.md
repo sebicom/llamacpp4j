@@ -25,7 +25,7 @@ Then play around with the options that get passed in.
     mvn install:install-file -Dfile=src/main/resources/LLamaWrap.jar -DgroupId=com.sebicom -DartifactId=llama -Dversion=0.48 -Dpackaging=jar
 
 
-**2.** For Linux, add the native c/c++ libraries, libllama.so & libllama_jwrap.so, to:
+**2.** For Linux, add the native c/c++ libraries _(src/main/resources/natives/nix/)_, **libllama.so** & **libllama_jwrap.so**, to:
  
     /usr/java/packages/lib
 
