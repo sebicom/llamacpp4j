@@ -12,7 +12,7 @@ I'm using this one from [HuggingFace](https://huggingface.co/)
 
 https://huggingface.co/TheBloke/WizardLM-7B-uncensored-GGML
 
-Edit the java file Example.java, to reflect the path and name of your model.
+Edit the java file _Example.java_ to reflect the path and name of your model.
 Then play around with the options that get passed in.
 
 
