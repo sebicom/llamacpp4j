@@ -41,13 +41,13 @@ Then play around with the options that get passed in.
 
 
 ### Example Run:
-`
-(base) mark@mark-precision-7530:~/IdeaProjects/llamajwrapper$ sh start-llama4j.sh\
+
+$ sh start-llama4j.sh\
 \
 AVX = 1 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | VSX = 0 |
 mainn: build = 491 (a638ea3)
 mainn: seed  = 1688477545
-llama.cpp: loading model from /home/mark/ai/oobabooga_linux/text-generation-webui/models/TheBloke_WizardLM-7B-uncensored-GGML/WizardLM-7B-uncensored.ggml.q5_1.bin
+llama.cpp: loading model from /models/TheBloke_WizardLM-7B-uncensored-GGML/WizardLM-7B-uncensored.ggml.q5_1.bin
 llama_model_load_internal: format     = ggjt v1 (latest)
 llama_model_load_internal: n_vocab    = 32001
 llama_model_load_internal: n_ctx      = 1024
@@ -99,4 +99,3 @@ Challenges:
    I hope that helps! Let me know if you have any other questions.\
    User: 
 
-`
