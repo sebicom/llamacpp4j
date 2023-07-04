@@ -5,6 +5,19 @@ Java classes were built using the SWIG project via [llama.swig](https://github.c
 
 ## Setup
 
+
+### Download a model to use
+
+I'm using this one from [HuggingFace](https://huggingface.co/)
+
+https://huggingface.co/TheBloke/WizardLM-7B-uncensored-GGML
+
+Edit the java file Example.java, to reflect the path and name of your model.
+Then play around with the options that get passed in.
+
+
+
+
 #### All files referenced below are found in the /src/main/resources directory
 
 **1.** Add the java library to your local maven repo
@@ -24,6 +37,7 @@ Java classes were built using the SWIG project via [llama.swig](https://github.c
 **4.** Execute the sh script:
 
     sh start-llama4j.sh
+
 
 
 ### Example Run:
