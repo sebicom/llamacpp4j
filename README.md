@@ -9,21 +9,21 @@ Java classes were built using the SWIG project via [llama.swig](https://github.c
 
 **1.** Add the java library to your local maven repo
 
-    `mvn install:install-file -Dfile=LLamaWrap.jar -DgroupId=com.sebicom -DartifactId=llama -Dversion=0.48 -Dpackaging=jar`
+    mvn install:install-file -Dfile=src/main/resources/LLamaWrap.jar -DgroupId=com.sebicom -DartifactId=llama -Dversion=0.48 -Dpackaging=jar
 
 
 **2.** For Linux, add the native c/c++ libraries, libllama.so & libllama_jwrap.so, to:
  
-  ` /usr/java/packages/lib`
+    /usr/java/packages/lib
 
 **3.** Compile and build the application jar:
 
-    `mvn clean compile assembly:single`
+    mvn clean compile assembly:single
 
 
 **4.** Execute the sh script:
 
-    `sh start-llama4j.sh`
+    sh start-llama4j.sh
 
 
 ### Example Run:
